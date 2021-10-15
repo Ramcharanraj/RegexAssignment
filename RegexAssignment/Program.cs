@@ -6,7 +6,12 @@ namespace RegexAssignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to REGEX");
+            //UC 1
+            Console.WriteLine("Use Case 1");
+            Console.WriteLine("\n");
+            Console.WriteLine("Enter The First Name: ");
+            string userFirstName = Console.ReadLine();
+            FirstName.validateFirstName(userFirstName);
         }
     }
 }
