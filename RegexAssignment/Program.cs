@@ -12,6 +12,13 @@ namespace RegexAssignment
             Console.WriteLine("Enter The First Name: ");
             string userFirstName = Console.ReadLine();
             FirstName.validateFirstName(userFirstName);
+
+            //Use Case 2
+            Console.WriteLine("Use Case 2");
+            Console.WriteLine("\n");
+            Console.WriteLine("Enter The Last Name: ");
+            string userLastName = Console.ReadLine();
+            LastName.validateLastName(userLastName);
         }
     }
 }
