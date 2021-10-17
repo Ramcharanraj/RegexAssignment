@@ -1,4 +1,5 @@
 ﻿using System;
+using RegexAssignmen;
 
 namespace RegexAssignment
 {
@@ -26,6 +27,13 @@ namespace RegexAssignment
             Console.WriteLine("Enter The Email Id: ");
             string userEmailId = Console.ReadLine();
             EmailId.validateEmailId(userEmailId);
+
+            //Use Case 4
+            Console.WriteLine("Use Case 4");
+            Console.WriteLine("\n");
+            Console.WriteLine("Enter The Phone Number: ");
+            string userPhoneNumber = Console.ReadLine();
+            PhoneNumber.validatePhoneNumber(userPhoneNumber);
         }
     }
 }
